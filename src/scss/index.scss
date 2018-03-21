@@ -1,6 +1,37 @@
 @import "./vars";
 
 body{
+    .header{
+        font-family: "proxima-nova";
+        font-size: 60px;
+        font-weight: 600;
+        margin: auto;
+        width: fit-content;
+        color: #D31D34;
+        letter-spacing: 0.0588235em;
+        .underline{
+            #first{
+                width: 20px;
+                height: 10px;
+                background-color: $heartbreak-1;
+            }
+            #second{
+                width: 20px;
+                height: 10px;
+                background-color: $heartbreak-2;
+            }
+            #third{
+                width: 20px;
+                height: 10px;
+                background-color: $heartbreak-3;
+            }
+            #fourth{
+                width: 20px;
+                height: 10px;
+                background-color: $heartbreak-5;
+            }
+        }
+    }
     #bracket{
         min-height: 100%;
         min-width: 100%;

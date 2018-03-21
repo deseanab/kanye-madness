@@ -1,3 +1,28 @@
+body .header {
+  font-family: "proxima-nova";
+  font-size: 60px;
+  font-weight: 600;
+  margin: auto;
+  width: fit-content;
+  color: #D31D34;
+  letter-spacing: 0.0588235em; }
+  body .header .underline #first {
+    width: 20px;
+    height: 10px;
+    background-color: #9FD2CE; }
+  body .header .underline #second {
+    width: 20px;
+    height: 10px;
+    background-color: #00A9EB; }
+  body .header .underline #third {
+    width: 20px;
+    height: 10px;
+    background-color: #00A38B; }
+  body .header .underline #fourth {
+    width: 20px;
+    height: 10px;
+    background-color: #D6DF55; }
+
 body #bracket {
   min-height: 100%;
   min-width: 100%;

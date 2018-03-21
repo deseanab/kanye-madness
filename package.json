@@ -1,0 +1,26 @@
+{
+  "name": "kanye-bracket",
+  "version": "1.0.0",
+  "description": "Kanye West Madness Bracket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch src/scss -o dist/css" 
+  },
+  "keywords": [
+    "kanye",
+    "march",
+    "madness"
+  ],
+  "author": "Desean Abraham",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.4",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12"
+  }
+}

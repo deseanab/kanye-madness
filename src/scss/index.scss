@@ -1,139 +1,124 @@
 @import "./vars";
+@import "./mixins";
+
+@mixin underline-dimensions{
+    width: 20px;
+    height: 10px;
+}
+
+@mixin box-matchup{
+    height: 45px;
+    box-shadow: 3px 3px rgba(0,0,0,0.4);
+    margin-bottom: 0.25em;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+@mixin song-box-styles{
+    @include box-matchup;
+        .college-dropout-color-palette{
+        @include college-dropout;
+        }
+        .late-registration-color-palette{
+        @include late-registration;
+        }
+        .graduation-color-palette{
+            @include graduation;
+        }
+        .mbdtf-color-palette{
+            @include mbdtf;
+        }
+        .life-of-pablo-color-palette{
+            @include pablo;
+        }
+        .watch-the-throne-color-palette{
+            @include throne;
+        }
+        .heartbreak-color-palette{
+            @include heartbreak;
+        }
+        .song-seed{
+            margin: auto 0 auto 10px;
+        }
+        .song-name{
+            margin: auto 0 auto 0;
+        }
+    }
 
 body{
-    .header{
-        font-family: "proxima-nova";
-        font-size: 60px;
-        font-weight: 600;
-        margin: auto;
-        width: fit-content;
-        color: #D31D34;
-        letter-spacing: 0.0588235em;
-        .underline{
-            #first{
-                width: 20px;
-                height: 10px;
-                background-color: $heartbreak-1;
-            }
-            #second{
-                width: 20px;
-                height: 10px;
-                background-color: $heartbreak-2;
-            }
-            #third{
-                width: 20px;
-                height: 10px;
-                background-color: $heartbreak-3;
-            }
-            #fourth{
-                width: 20px;
-                height: 10px;
-                background-color: $heartbreak-5;
+    .tight-north-west, .tight-north-east{
+        font-size: 10.5px;
+        .song-match-up{
+            width: 15.5em;
+            margin-left: 30px;
+            .container{
+                .match-up{
+                    @include song-box-styles();
+                }
             }
         }
     }
+    #sky{
+        max-width: 100%;
+        .header{
+            font-family: "proxima-nova";
+            font-size: 60px;
+            font-weight: 600;
+            margin: auto;
+            width: fit-content;
+            color: #D31D34;
+            letter-spacing: 0.0588235em;
+            margin-top: 10px;
+            #title{
+                width: 600px;
+                margin: auto;
+            }
+            .underline{
+                #first{
+                    @include underline-dimensions();
+                    background-color: $heartbreak-1;
+                }
+                #second{
+                    @include underline-dimensions();
+                    background-color: $heartbreak-2;
+                }
+                #third{
+                    @include underline-dimensions();
+                    background-color: $heartbreak-3;
+                }
+                #fourth{
+                    @include underline-dimensions();
+                    background-color: $heartbreak-5;
+                }
+            }
+        }
+    }
+    
     #bracket{
         min-height: 100%;
         min-width: 100%;
         position: fixed;
-        font-size: 14px;
+        font-size: 10.5px;
         margin: 0px;
         #upper{
             margin-bottom: 50px;
+            #north-east{
+                float: right;
+                margin-right: -70%;
+            }
+        }
+        #lower{
+            margin-bottom: 50px;
+            #south-east{
+                float: right;
+                margin-right: -70%;
+            }
         }
         .song-match-up{
-            width: 13.5em;
-            .container{
+            width: 15.5em;
+            .container {
                 .match-up{
-                    height: 45px;
-                    box-shadow: 3px 3px rgba(0,0,0,0.4);
-                    margin-bottom: 0.25em;
-                    background-color: #fff;
-                    border-radius: 5px;
-                    .college-dropout-color-palette{
-                        width: 5px;
-                        border-radius: 3px 2px 3px 2px;
-                        background-color: $college-dropout;
-                    }
-                    .late-registration-color-palette{
-                        width: 5px;
-                        .late-registration-1{
-                            width: 5px;
-                            height: 21px;
-                            border-radius: 3px 2px 0px 0px;
-                            background-color: $late-registration-base;
-                        }
-                        .late-registration-2{
-                            width: 5px;
-                            height: 22px;
-                            border-radius: 0px 0px 3px 2px;
-                            background-color: $late-registration-bear-eyes;
-                        }
-                    }
-                    .graduation-color-palette{
-                        width: 5px;
-                        height: 43px;
-                        border-radius: 3px 2px 3px 2px;
-                        background-color: $graduation;
-                    }
-                    .mbdtf-color-palette{
-                        width: 5px;
-                        height: 43px;
-                        border-radius: 3px 2px 3px 2px;
-                        .mbdtf-1{
-                            margin: auto;
-                            height: 15px;
-                            border-radius: 3px 2px 0px 0px;
-                            background-color: $mbdtf-1;
-                        }.mbdtf-2{
-                            margin: auto;
-                            height: 15px;
-                            background-color: $mbdtf-2;
-                        }.mbdtf-3{
-                            margin: auto;
-                            height: 15px;
-                            border-radius: 0px 0px 3px 2px;
-                            background-color: $mbdtf-3;
-                        }
-                    }
-                    .watch-the-throne-color-palette{
-                        width: 5px;
-                        border-radius: 3px 2px 3px 2px;
-                        background-color: $watch-throne;
-                    }
-                    .heartbreak-color-palette{
-                        width: 5px;
-                        height: 43px;
-                        .heartbreak-1{
-                            margin: auto;
-                            height: 9px;
-                            border-radius: 3px 2px 0px 0px;
-                            background-color: $heartbreak-1;
-                        }.heartbreak-2{
-                            margin: auto;
-                            height: 9px; 
-                            background-color: $heartbreak-2;
-                        }.heartbreak-3{
-                            margin: auto;
-                            height: 9px;
-                            background-color: $heartbreak-3;
-                        }.heartbreak-4{
-                            margin: auto;
-                            height: 9px;
-                            background-color: $heartbreak-4;
-                        }.heartbreak-5{
-                            margin: auto;
-                            height: 9px;
-                            border-radius: 0px 0px 3px 2px;
-                            background-color: $heartbreak-5;
-                        }
-                    }
-                    .song-seed{
-                        margin: auto 0 auto 10px;
-                    }
-                    .song-name{
-                        margin: auto 0 auto 0;
-                    }
+                    @include song-box-styles();
                 }
             }
         }

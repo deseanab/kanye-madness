@@ -1,0 +1,94 @@
+@mixin college-dropout{
+    width: 5px;
+    border-radius: 3px 2px 3px 2px;
+    background-color: $college-dropout;
+
+}
+
+@mixin late-registration{
+    width: 5px;
+    .late-registration-1{
+        width: 5px;
+        height: 21px;
+        border-radius: 3px 2px 0px 0px;
+        background-color: $late-registration-base;
+    }
+    .late-registration-2{
+        width: 5px;
+        height: 22px;
+        border-radius: 0px 0px 3px 2px;
+        background-color: $late-registration-bear-eyes;
+    }
+}
+
+@mixin graduation{
+    width: 5px;
+    height: 43px;
+    border-radius: 3px 2px 3px 2px;
+    background-color: $graduation;
+}
+
+@mixin heartbreak{
+    width: 5px;
+    height: 43px;
+    .heartbreak-1{
+        margin: auto;
+        height: 9px;
+        border-radius: 3px 2px 0px 0px;
+        background-color: $heartbreak-1;
+    }.heartbreak-2{
+        margin: auto;
+        height: 9px; 
+        background-color: $heartbreak-2;
+    }.heartbreak-3{
+        margin: auto;
+        height: 9px;
+        background-color: $heartbreak-3;
+    }.heartbreak-4{
+        margin: auto;
+        height: 9px;
+        background-color: $heartbreak-4;
+    }.heartbreak-5{
+        margin: auto;
+        height: 9px;
+        border-radius: 0px 0px 3px 2px;
+        background-color: $heartbreak-5;
+    }
+}
+
+@mixin mbdtf{
+    width: 5px;
+    height: 43px;
+    border-radius: 3px 2px 3px 2px;
+    .mbdtf-1{
+        margin: auto;
+        height: 15px;
+        border-radius: 3px 2px 0px 0px;
+        background-color: $mbdtf-1;
+    }.mbdtf-2{
+        margin: auto;
+        height: 15px;
+        background-color: $mbdtf-2;
+    }.mbdtf-3{
+        margin: auto;
+        height: 15px;
+        border-radius: 0px 0px 3px 2px;
+        background-color: $mbdtf-3;
+    }
+}
+
+@mixin throne{
+    width: 5px;
+    border-radius: 3px 2px 3px 2px;
+    background-color: $watch-throne;
+}
+
+@mixin yeezus{
+
+}
+
+@mixin pablo{
+    width: 5px;
+    border-radius: 3px 2px 3px 2px;
+    background-color: $life-of-pablo;
+}

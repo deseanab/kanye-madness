@@ -4,7 +4,7 @@ body .tight-north-west, body .tight-north-east {
     width: 15.5em;
     margin-left: 30px; }
     body .tight-north-west .song-match-up .container .match-up, body .tight-north-east .song-match-up .container .match-up {
-      height: 45px;
+      height: 25px;
       box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
       margin-bottom: 0.25em;
       background-color: #fff;
@@ -17,35 +17,33 @@ body .tight-north-west, body .tight-north-east {
         width: 5px; }
         body .tight-north-west .song-match-up .container .match-up .late-registration-color-palette .late-registration-1, body .tight-north-east .song-match-up .container .match-up .late-registration-color-palette .late-registration-1 {
           width: 5px;
-          height: 21px;
+          height: 12.5px;
           border-radius: 3px 2px 0px 0px;
           background-color: #643006; }
         body .tight-north-west .song-match-up .container .match-up .late-registration-color-palette .late-registration-2, body .tight-north-east .song-match-up .container .match-up .late-registration-color-palette .late-registration-2 {
           width: 5px;
-          height: 22px;
+          height: 12.5px;
           border-radius: 0px 0px 3px 2px;
           background-color: #C1A354; }
       body .tight-north-west .song-match-up .container .match-up .graduation-color-palette, body .tight-north-east .song-match-up .container .match-up .graduation-color-palette {
         width: 5px;
-        height: 43px;
         border-radius: 3px 2px 3px 2px;
         background-color: #873081; }
       body .tight-north-west .song-match-up .container .match-up .mbdtf-color-palette, body .tight-north-east .song-match-up .container .match-up .mbdtf-color-palette {
         width: 5px;
-        height: 43px;
         border-radius: 3px 2px 3px 2px; }
         body .tight-north-west .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-1, body .tight-north-east .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-1 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           border-radius: 3px 2px 0px 0px;
           background-color: #D01830; }
         body .tight-north-west .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-2, body .tight-north-east .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-2 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           background-color: #145193; }
         body .tight-north-west .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-3, body .tight-north-east .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-3 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           border-radius: 0px 0px 3px 2px;
           background-color: #EDA033; }
       body .tight-north-west .song-match-up .container .match-up .life-of-pablo-color-palette, body .tight-north-east .song-match-up .container .match-up .life-of-pablo-color-palette {
@@ -57,28 +55,27 @@ body .tight-north-west, body .tight-north-east {
         border-radius: 3px 2px 3px 2px;
         background-color: #F8DBA6; }
       body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette {
-        width: 5px;
-        height: 43px; }
+        width: 5px; }
         body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-1, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-1 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           border-radius: 3px 2px 0px 0px;
           background-color: #9FD2CE; }
         body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-2, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-2 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #00A9EB; }
         body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-3, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-3 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #00A38B; }
         body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-4, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-4 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #F8C0D3; }
         body .tight-north-west .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-5, body .tight-north-east .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-5 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           border-radius: 0px 0px 3px 2px;
           background-color: #D6DF55; }
       body .tight-north-west .song-match-up .container .match-up .song-seed, body .tight-north-east .song-match-up .container .match-up .song-seed {
@@ -136,7 +133,7 @@ body #bracket {
   body #bracket .song-match-up {
     width: 15.5em; }
     body #bracket .song-match-up .container .match-up {
-      height: 45px;
+      height: 25px;
       box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
       margin-bottom: 0.25em;
       background-color: #fff;
@@ -149,35 +146,33 @@ body #bracket {
         width: 5px; }
         body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-1 {
           width: 5px;
-          height: 21px;
+          height: 12.5px;
           border-radius: 3px 2px 0px 0px;
           background-color: #643006; }
         body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-2 {
           width: 5px;
-          height: 22px;
+          height: 12.5px;
           border-radius: 0px 0px 3px 2px;
           background-color: #C1A354; }
       body #bracket .song-match-up .container .match-up .graduation-color-palette {
         width: 5px;
-        height: 43px;
         border-radius: 3px 2px 3px 2px;
         background-color: #873081; }
       body #bracket .song-match-up .container .match-up .mbdtf-color-palette {
         width: 5px;
-        height: 43px;
         border-radius: 3px 2px 3px 2px; }
         body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-1 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           border-radius: 3px 2px 0px 0px;
           background-color: #D01830; }
         body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-2 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           background-color: #145193; }
         body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-3 {
           margin: auto;
-          height: 15px;
+          height: 8.33px;
           border-radius: 0px 0px 3px 2px;
           background-color: #EDA033; }
       body #bracket .song-match-up .container .match-up .life-of-pablo-color-palette {
@@ -189,28 +184,27 @@ body #bracket {
         border-radius: 3px 2px 3px 2px;
         background-color: #F8DBA6; }
       body #bracket .song-match-up .container .match-up .heartbreak-color-palette {
-        width: 5px;
-        height: 43px; }
+        width: 5px; }
         body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-1 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           border-radius: 3px 2px 0px 0px;
           background-color: #9FD2CE; }
         body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-2 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #00A9EB; }
         body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-3 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #00A38B; }
         body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-4 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           background-color: #F8C0D3; }
         body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-5 {
           margin: auto;
-          height: 9px;
+          height: 5px;
           border-radius: 0px 0px 3px 2px;
           background-color: #D6DF55; }
       body #bracket .song-match-up .container .match-up .song-seed {

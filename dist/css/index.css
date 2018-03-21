@@ -1,90 +1,88 @@
-body {
-  background-repeat: no-repeat; }
-  body #bracket {
-    min-height: 100%;
-    min-width: 100%;
-    position: fixed;
-    font-size: 14px;
-    margin: 0px; }
-    body #bracket #upper {
-      margin-bottom: 50px; }
-    body #bracket .song-match-up {
-      width: 13.5em; }
-      body #bracket .song-match-up .container .match-up {
-        height: 45px;
-        border-bottom: solid rgba(0, 0, 0, 0.1);
-        margin-bottom: 0.25em;
-        background-color: #fff;
-        border-radius: 5px; }
-        body #bracket .song-match-up .container .match-up .college-dropout-color-palette {
+body #bracket {
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+  font-size: 14px;
+  margin: 0px; }
+  body #bracket #upper {
+    margin-bottom: 50px; }
+  body #bracket .song-match-up {
+    width: 13.5em; }
+    body #bracket .song-match-up .container .match-up {
+      height: 45px;
+      box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+      margin-bottom: 0.25em;
+      background-color: #fff;
+      border-radius: 5px; }
+      body #bracket .song-match-up .container .match-up .college-dropout-color-palette {
+        width: 5px;
+        border-radius: 3px 2px 3px 2px;
+        background-color: #3F0E11; }
+      body #bracket .song-match-up .container .match-up .late-registration-color-palette {
+        width: 5px; }
+        body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-1 {
           width: 5px;
-          border-radius: 3px 2px 3px 2px;
-          background-color: #3F0E11; }
-        body #bracket .song-match-up .container .match-up .late-registration-color-palette {
-          width: 5px; }
-          body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-1 {
-            width: 5px;
-            height: 21px;
-            border-radius: 3px 2px 0px 0px;
-            background-color: #643006; }
-          body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-2 {
-            width: 5px;
-            height: 22px;
-            border-radius: 0px 0px 3px 2px;
-            background-color: #C1A354; }
-        body #bracket .song-match-up .container .match-up .graduation-color-palette {
+          height: 21px;
+          border-radius: 3px 2px 0px 0px;
+          background-color: #643006; }
+        body #bracket .song-match-up .container .match-up .late-registration-color-palette .late-registration-2 {
           width: 5px;
-          height: 43px;
-          border-radius: 3px 2px 3px 2px;
-          background-color: #873081; }
-        body #bracket .song-match-up .container .match-up .mbdtf-color-palette {
-          width: 5px;
-          height: 43px;
-          border-radius: 3px 2px 3px 2px; }
-          body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-1 {
-            margin: auto;
-            height: 15px;
-            border-radius: 3px 2px 0px 0px;
-            background-color: #D01830; }
-          body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-2 {
-            margin: auto;
-            height: 15px;
-            background-color: #145193; }
-          body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-3 {
-            margin: auto;
-            height: 15px;
-            border-radius: 0px 0px 3px 2px;
-            background-color: #EDA033; }
-        body #bracket .song-match-up .container .match-up .watch-the-throne-color-palette {
-          width: 5px;
-          border-radius: 3px 2px 3px 2px;
-          background-color: #F8DBA6; }
-        body #bracket .song-match-up .container .match-up .heartbreak-color-palette {
-          width: 5px;
-          height: 43px; }
-          body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-1 {
-            margin: auto;
-            height: 9px;
-            border-radius: 3px 2px 0px 0px;
-            background-color: #9FD2CE; }
-          body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-2 {
-            margin: auto;
-            height: 9px;
-            background-color: #00A9EB; }
-          body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-3 {
-            margin: auto;
-            height: 9px;
-            background-color: #00A38B; }
-          body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-4 {
-            margin: auto;
-            height: 9px;
-            background-color: #F8C0D3; }
-          body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-5 {
-            margin: auto;
-            height: 9px;
-            border-radius: 0px 0px 3px 2px;
-            background-color: #D6DF55; }
-        body #bracket .song-match-up .container .match-up .song-seed {
-          margin: auto 0 auto 10px; }
-        body #bracket .song-match-up .container .match-up .song-name {
-          margin: auto 0 auto 0; }
+          height: 22px;
+          border-radius: 0px 0px 3px 2px;
+          background-color: #C1A354; }
+      body #bracket .song-match-up .container .match-up .graduation-color-palette {
+        width: 5px;
+        height: 43px;
+        border-radius: 3px 2px 3px 2px;
+        background-color: #873081; }
+      body #bracket .song-match-up .container .match-up .mbdtf-color-palette {
+        width: 5px;
+        height: 43px;
+        border-radius: 3px 2px 3px 2px; }
+        body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-1 {
+          margin: auto;
+          height: 15px;
+          border-radius: 3px 2px 0px 0px;
+          background-color: #D01830; }
+        body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-2 {
+          margin: auto;
+          height: 15px;
+          background-color: #145193; }
+        body #bracket .song-match-up .container .match-up .mbdtf-color-palette .mbdtf-3 {
+          margin: auto;
+          height: 15px;
+          border-radius: 0px 0px 3px 2px;
+          background-color: #EDA033; }
+      body #bracket .song-match-up .container .match-up .watch-the-throne-color-palette {
+        width: 5px;
+        border-radius: 3px 2px 3px 2px;
+        background-color: #F8DBA6; }
+      body #bracket .song-match-up .container .match-up .heartbreak-color-palette {
+        width: 5px;
+        height: 43px; }
+        body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-1 {
+          margin: auto;
+          height: 9px;
+          border-radius: 3px 2px 0px 0px;
+          background-color: #9FD2CE; }
+        body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-2 {
+          margin: auto;
+          height: 9px;
+          background-color: #00A9EB; }
+        body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-3 {
+          margin: auto;
+          height: 9px;
+          background-color: #00A38B; }
+        body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-4 {
+          margin: auto;
+          height: 9px;
+          background-color: #F8C0D3; }
+        body #bracket .song-match-up .container .match-up .heartbreak-color-palette .heartbreak-5 {
+          margin: auto;
+          height: 9px;
+          border-radius: 0px 0px 3px 2px;
+          background-color: #D6DF55; }
+      body #bracket .song-match-up .container .match-up .song-seed {
+        margin: auto 0 auto 10px; }
+      body #bracket .song-match-up .container .match-up .song-name {
+        margin: auto 0 auto 0; }
